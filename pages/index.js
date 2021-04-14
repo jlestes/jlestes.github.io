@@ -22,7 +22,7 @@ const Main = styled.main`
   /* align-items: center; */
 `;
 
-const StyledImage = styled(Image)`
+const StyledImage = styled.img`
   border-radius: 100%;
 `;
 
@@ -93,7 +93,6 @@ export default function Home() {
         </HeadingWrapper>
 
         <BioContainer>
-          <nav>Some - nav stuff here</nav>
           <SectionHeader>Background</SectionHeader>
           <p>
             Hello 👋 my name is Jonathan Estes and I am a front-end engineer
@@ -121,8 +120,6 @@ export default function Home() {
             developer experience while delivering high quality products at scale
             rapidly.
           </p>
-
-          <SectionHeader>Skills</SectionHeader>
         </BioContainer>
       </Main>
     </Wrapper>
